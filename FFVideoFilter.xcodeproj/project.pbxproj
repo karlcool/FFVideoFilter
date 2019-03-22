@@ -13,6 +13,18 @@
 		2CA521482244D18F00F82F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA521472244D18F00F82F2F /* Assets.xcassets */; };
 		2CA5214B2244D18F00F82F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA521492244D18F00F82F2F /* LaunchScreen.storyboard */; };
 		2CA5214E2244D19000F82F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5214D2244D19000F82F2F /* main.m */; };
+		2CA521982244D22D00F82F2F /* WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5217E2244D22D00F82F2F /* WaterMark.m */; };
+		2CA521992244D22D00F82F2F /* RTFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521802244D22D00F82F2F /* RTFilter.mm */; };
+		2CA5219A2244D22D00F82F2F /* AVFrameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521822244D22D00F82F2F /* AVFrameTool.m */; };
+		2CA5219B2244D22D00F82F2F /* FFMpegTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521832244D22D00F82F2F /* FFMpegTool.mm */; };
+		2CA5219C2244D22D00F82F2F /* PixelPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521872244D22D00F82F2F /* PixelPlayer.m */; };
+		2CA5219D2244D22D00F82F2F /* VideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521892244D22D00F82F2F /* VideoInfo.m */; };
+		2CA5219E2244D22D00F82F2F /* PacketProducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5218E2244D22D00F82F2F /* PacketProducer.cpp */; };
+		2CA5219F2244D22D00F82F2F /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521902244D22D00F82F2F /* Filter.cpp */; };
+		2CA521A02244D22D00F82F2F /* Transformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521922244D22D00F82F2F /* Transformer.cpp */; };
+		2CA521A12244D22D00F82F2F /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521932244D22D00F82F2F /* Decoder.cpp */; };
+		2CA521A22244D22D00F82F2F /* Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CA521972244D22D00F82F2F /* Encoder.cpp */; };
+		2CA521A42244D23400F82F2F /* FFVideoFilter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2CA521A32244D23400F82F2F /* FFVideoFilter.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,32 @@
 		2CA5214A2244D18F00F82F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA5214C2244D18F00F82F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA5214D2244D19000F82F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA5217E2244D22D00F82F2F /* WaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterMark.m; sourceTree = "<group>"; };
+		2CA5217F2244D22D00F82F2F /* PixelPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelPlayer.h; sourceTree = "<group>"; };
+		2CA521802244D22D00F82F2F /* RTFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RTFilter.mm; sourceTree = "<group>"; };
+		2CA521812244D22D00F82F2F /* VideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfo.h; sourceTree = "<group>"; };
+		2CA521822244D22D00F82F2F /* AVFrameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFrameTool.m; sourceTree = "<group>"; };
+		2CA521832244D22D00F82F2F /* FFMpegTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FFMpegTool.mm; sourceTree = "<group>"; };
+		2CA521842244D22D00F82F2F /* WaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterMark.h; sourceTree = "<group>"; };
+		2CA521852244D22D00F82F2F /* RTFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTFilter.h; sourceTree = "<group>"; };
+		2CA521862244D22D00F82F2F /* FFMpegTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMpegTool.h; sourceTree = "<group>"; };
+		2CA521872244D22D00F82F2F /* PixelPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelPlayer.m; sourceTree = "<group>"; };
+		2CA521882244D22D00F82F2F /* AVFrameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFrameTool.h; sourceTree = "<group>"; };
+		2CA521892244D22D00F82F2F /* VideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfo.m; sourceTree = "<group>"; };
+		2CA5218B2244D22D00F82F2F /* common_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_utils.h; sourceTree = "<group>"; };
+		2CA5218C2244D22D00F82F2F /* OnDecodeFrameListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnDecodeFrameListener.h; sourceTree = "<group>"; };
+		2CA5218D2244D22D00F82F2F /* PacketProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketProducer.h; sourceTree = "<group>"; };
+		2CA5218E2244D22D00F82F2F /* PacketProducer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketProducer.cpp; sourceTree = "<group>"; };
+		2CA5218F2244D22D00F82F2F /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		2CA521902244D22D00F82F2F /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Filter.cpp; sourceTree = "<group>"; };
+		2CA521912244D22D00F82F2F /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoder.h; sourceTree = "<group>"; };
+		2CA521922244D22D00F82F2F /* Transformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transformer.cpp; sourceTree = "<group>"; };
+		2CA521932244D22D00F82F2F /* Decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decoder.cpp; sourceTree = "<group>"; };
+		2CA521942244D22D00F82F2F /* Transformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transformer.h; sourceTree = "<group>"; };
+		2CA521952244D22D00F82F2F /* OnProducePakcetListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnProducePakcetListener.h; sourceTree = "<group>"; };
+		2CA521962244D22D00F82F2F /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		2CA521972244D22D00F82F2F /* Encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encoder.cpp; sourceTree = "<group>"; };
+		2CA521A32244D23400F82F2F /* FFVideoFilter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FFVideoFilter.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +105,58 @@
 				2CA521492244D18F00F82F2F /* LaunchScreen.storyboard */,
 				2CA5214C2244D18F00F82F2F /* Info.plist */,
 				2CA5214D2244D19000F82F2F /* main.m */,
+				2CA521A32244D23400F82F2F /* FFVideoFilter.podspec */,
+				2CA5217C2244D22D00F82F2F /* Class */,
 			);
 			path = FFVideoFilter;
+			sourceTree = "<group>";
+		};
+		2CA5217C2244D22D00F82F2F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5217D2244D22D00F82F2F /* kit */,
+				2CA5218A2244D22D00F82F2F /* worker */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
+		};
+		2CA5217D2244D22D00F82F2F /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5217E2244D22D00F82F2F /* WaterMark.m */,
+				2CA5217F2244D22D00F82F2F /* PixelPlayer.h */,
+				2CA521802244D22D00F82F2F /* RTFilter.mm */,
+				2CA521812244D22D00F82F2F /* VideoInfo.h */,
+				2CA521822244D22D00F82F2F /* AVFrameTool.m */,
+				2CA521832244D22D00F82F2F /* FFMpegTool.mm */,
+				2CA521842244D22D00F82F2F /* WaterMark.h */,
+				2CA521852244D22D00F82F2F /* RTFilter.h */,
+				2CA521862244D22D00F82F2F /* FFMpegTool.h */,
+				2CA521872244D22D00F82F2F /* PixelPlayer.m */,
+				2CA521882244D22D00F82F2F /* AVFrameTool.h */,
+				2CA521892244D22D00F82F2F /* VideoInfo.m */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		2CA5218A2244D22D00F82F2F /* worker */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5218B2244D22D00F82F2F /* common_utils.h */,
+				2CA5218C2244D22D00F82F2F /* OnDecodeFrameListener.h */,
+				2CA5218D2244D22D00F82F2F /* PacketProducer.h */,
+				2CA5218E2244D22D00F82F2F /* PacketProducer.cpp */,
+				2CA5218F2244D22D00F82F2F /* Decoder.h */,
+				2CA521902244D22D00F82F2F /* Filter.cpp */,
+				2CA521912244D22D00F82F2F /* Encoder.h */,
+				2CA521922244D22D00F82F2F /* Transformer.cpp */,
+				2CA521932244D22D00F82F2F /* Decoder.cpp */,
+				2CA521942244D22D00F82F2F /* Transformer.h */,
+				2CA521952244D22D00F82F2F /* OnProducePakcetListener.h */,
+				2CA521962244D22D00F82F2F /* Filter.h */,
+				2CA521972244D22D00F82F2F /* Encoder.cpp */,
+			);
+			path = worker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +218,7 @@
 			files = (
 				2CA5214B2244D18F00F82F2F /* LaunchScreen.storyboard in Resources */,
 				2CA521482244D18F00F82F2F /* Assets.xcassets in Resources */,
+				2CA521A42244D23400F82F2F /* FFVideoFilter.podspec in Resources */,
 				2CA521462244D18E00F82F2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +230,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA521992244D22D00F82F2F /* RTFilter.mm in Sources */,
+				2CA5219E2244D22D00F82F2F /* PacketProducer.cpp in Sources */,
+				2CA5219D2244D22D00F82F2F /* VideoInfo.m in Sources */,
+				2CA5219F2244D22D00F82F2F /* Filter.cpp in Sources */,
+				2CA521A12244D22D00F82F2F /* Decoder.cpp in Sources */,
+				2CA521982244D22D00F82F2F /* WaterMark.m in Sources */,
 				2CA521432244D18E00F82F2F /* ViewController.m in Sources */,
 				2CA5214E2244D19000F82F2F /* main.m in Sources */,
+				2CA521A02244D22D00F82F2F /* Transformer.cpp in Sources */,
+				2CA5219B2244D22D00F82F2F /* FFMpegTool.mm in Sources */,
+				2CA5219A2244D22D00F82F2F /* AVFrameTool.m in Sources */,
 				2CA521402244D18E00F82F2F /* AppDelegate.m in Sources */,
+				2CA521A22244D22D00F82F2F /* Encoder.cpp in Sources */,
+				2CA5219C2244D22D00F82F2F /* PixelPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
